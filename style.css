@@ -1,17 +1,158 @@
-header{
-    padding:  30px 50px;
-    background-color:  #aaaaaa;
-}
-
-.cabecera{
+body{
+    margin: 0;
     width: 100%;
-    position: static;
-    margin: 0 auto;
+    height: 100%;
 }
 
-h1{
-    d;
-    padding: 50px 50px;
+header{
+    padding: 13px 20px 10px;
+    background: linear-gradient(to right, #BBBBBB, #444444);
+}
+
+main{
+    float:left;
+    position: static;
+    width: 100%;
+    min-height: 2020px;
+    background-image: url("https://profile.es/wp-content/media/que-son-paradigmas-programacion.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    bottom: 0;
+    padding: 0px;
+    border: 0px;
+}
+footer{
+    position: static;
+    width: 100%;
+    height: 35px;
+    top: 110%;
+
+}
+.cabecera{
+    position: relative;
+    margin: 0 auto;
     font-size: 30px;
-    color: #eeeeee;
+    font-weight: bolder;
+    font-family: "Garamond", Times, serif;
+}
+
+.caja{
+    overflow: auto;
+    position: absolute;
+    height: 2020px;
+    width: 100%;
+}
+
+.datos-informatica{
+    min-height: 1900px;
+    width: 87%;
+    background-color:rgba(180,180,180,0.8);
+    border-radius: 20px;
+    transform: rotate(-0.005turn);
+    margin: 3% auto;
+    padding: 20px;
+    border: 1px ridge #005283;
+}
+
+hr{
+    transform: rotate(0.005turn);
+    width: 85%;
+    background-color: #000000;
+    height: 1px;
+    border: 0;
+    margin-top: 110px;
+}
+
+.datos-informatica h1{
+    margin: 5% 3% 30px;
+    transform: rotate(0.005turn);
+    font-size: 26px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #005283;
+}
+
+.datos-informatica h2{
+    padding: 30px 100px;
+    transform: rotate(0.005turn);
+    font-size: 26px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #005283;
+    text-align: right;
+}
+
+.datos-informatica p{
+    transform: rotate(0.005turn);
+    margin: 20px 5% 80px;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.imagen-programador{
+    transform: rotate(0.005turn);
+    max-height: 200px;
+    float: right;
+    margin: 0 30px 0 25px;
+    border-radius: 55px;
+}
+
+.imagen-starcraft{
+    transform: rotate(0.005turn);
+    max-height: 200px;
+    float: left;
+    margin: 0px 30px 50px 25px;
+    border-radius: 55px;
+}
+
+.imagen-programador:hover{
+    transform: rotate(0.03turn) scale(1.1);
+    transition: 0.5s;
+}
+
+.imagen-starcraft:hover{
+    transform: rotate(-0.03turn) scale(1.1);
+    transition: 0.5s;
+}
+
+.pie{
+    background: #000000;
+    color: #bbbbbb;
+    padding: 17px;
+    text-align: center;
+}
+
+a{
+    color: #0079C2;
+}
+
+a:visited{
+    color: #005283;
+}
+
+.logos{
+    transform: rotate(0.005turn);
+    height: 160px;
+    width: 700px;
+    margin: 50px auto;
+}
+
+.logos:hover{
+
+    transform: rotate(0.005turn) scale(0.9);
+    transition: 0.5s;
+}
+
+#logo-utn{
+    max-height: 150px;
+    max-width: 300px;
+}
+
+#logo-coder{
+    max-height: 150px;
+    max-width: 200px;
+}
+
+#logo-google{
+    max-height: 150px;
+    max-width: 300px;
 }
