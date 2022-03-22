@@ -7,55 +7,103 @@
 		<title>Presentacion</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="https://static.thenounproject.com/png/4066324-200.png">
 		
 	</head>
 
 	<body>
 
 		<header>
+
+			<img src="https://cdn1.iconfinder.com/data/icons/black-round-web-icons/100/round-web-icons-black-40-512.png">
+		
 			<div class="cabecera">
 				<!--<img src="https://profile.es/wp-content/media/que-son-paradigmas-programacion.jpg">-->
-				<h1>Bienvenidos a mi intento de Web...</h1>
-
+				<h1>Welcome to... my Web attempt...</h1>
 			</div>
+
+			<nav class="menu">
+				<p>
+				<a href="#about">About me</a>
+				-
+				<a href="#skills">Skills</a>
+				-
+				<a href="#prof-exp">Professional experience</a>
+				-
+				<a href="#hobbies">Hobbies</a>
+				-
+				<a href="#acad-trai">Academic training</a>
+				-
+				<a href="#contact">Contact</a>
+				</p>
+			</nav>
+
 		</header>
+
 
 
 		<main>
 			<div class="caja">
 				<div class="datos-informatica">
 					
-					<h2 class="titulo-izquierdo">Hola, mi nombre es Nicolás Magariños y estudio programación web.<br></h2>
+					<h2 class="titulo-izquierdo">Hello, my name is Nicolás Magariños and I study web programming.<br></h2>
 
 					<img src="https://www.colegium.com/wp-content/uploads/2020/07/felizdiaprogramador.jpg" alt="imagen de un programador" class="imagen-programador">
 
-					<p>Se un poco de HTML, CSS, JAVASCRIPT, PYTHON y C. <br><br> Actualmente estoy aprendiendo sobre algunos de estos lenguajes y su implementación (como lo es esta WEB). <br><br>Me encuentro participando del proyecto <a href="https://www.oracle.com/ar/education/oracle-next-education/">Oracle ONE</a> en Alura Latam.</p>
+					<p>I know a bit of HTML, CSS, JAVASCRIPT, PYTHON and C.<br><br> I am currently learning about some of these languages and their implementation (such as this WEB) and participating in the project <a href="https://www.oracle.com/ar/education/oracle-next-education/">Oracle ONE</a> at Alura Latam.</p>
 
 					<hr>
 
-					<h2 class="centrado">About me</h2>
+					<h2 class="centrado" id="about">About me</h2>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Scelerisque in dictum non consectetur a. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Eu facilisis sed odio morbi quis. Eu mi bibendum neque egestas congue quisque. Quis hendrerit dolor magna eget est. Id nibh tortor id aliquet lectus proin nibh nisl. Dictum at tempor commodo ullamcorper a lacus. Pretium nibh ipsum consequat nisl vel. Nulla aliquet enim tortor at auctor urna nunc. In vitae turpis massa sed elementum tempus egestas sed.Dictum at tempor commodo ullamcorper a lacus. Pretium nibh ipsum consequat nisl vel. Nulla aliquet enim tortor at auctor urna nunc. In vitae turpis massa sed elementum tempus egestas sed.
+					<p>I am 29 years old, a beautiful family, three cats and a rabbit. Yes, a rabbit. <br><br>  Since I was a child I always liked the world of computers and technology and I always found myself in search of how to integrate professionally into it. <br><br>  I am currently taking the CODERHOUSE Data Scientyst course and participating in the Oracle ONE project in which I am learning Web Programming with great enthusiasm. <br><br>  Previously I learned programming in C, which I found very interesting and helped me understand the potential that programming has to do anything!! <br><br>  Today I would like to belong professionally to that beautiful world and that is why I am constantly training myself to achieve it. <br><br> Yep, I said rabbit..
 					</p>
 					
 					<hr>
 
-					<h2 class="centrado">Skills</h2>
+					<h2 class="centrado" id="skills">Skills</h2>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu scelerisque felis imperdiet proin fermentum. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Scelerisque in dictum non consectetur a. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Eu facilisis sed odio morbi quis.
-					</p>
+					<div class="lenguajes-logo">
 					
+						<div class="html-logo">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/2048px-HTML5_logo_black.svg.png" height="176px" width="174">				
+						</div>
+						<div class="js-logo">
+							<img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png" height="176px" width="174">
+						</div>
+						<div class="css-logo">
+							<img src="https://cdn.iconscout.com/icon/free/png-256/css-124-624920.png" height="176px" width="174">
+						</div>
+						<div class="c-logo">
+							<img src="https://images.vexels.com/media/users/3/166179/isolated/preview/b83d6b47a9502dfaf535087627a8bf96-icono-del-lenguaje-de-programacion-c.png" height="176px" width="174">
+						</div>
+					</div>
+
 					<hr>
 
-					<h2 class="centrado">Professional experiencee</h2>
+					<h2 class="centrado" id="prof-exp">Professional experience</h2>
 
-					<div>
+					<div class="exp-professional">
+						<div class="encryptor">
+							<iframe src="https://nico-0906.github.io/Challenge-Oracle-ONE-Encryptor/"></iframe>
+
+							<button onclick="location.href='https://github.com/Nico-0906/Challenge-Oracle-ONE-Encryptor'">Ir al repositorio</button> 
+
+						</div>
+						
+						
+						<div class="ahorcado">
+							<iframe src="https://nico-0906.github.io/Challenge-Oracle-ONE-Juego-Ahorcado/" scrolling="no"></iframe>
+
+							<button onclick="location.href='https://github.com/Nico-0906/Challenge-Oracle-ONE-Juego-Ahorcado'">Ir al repositorio</button>
+							
+						</div>
 
 					</div>
 
 					<hr>
 
-					<h2 class="centrado">Hobbies</h2>
+					<h2 class="centrado" id="hobbies">Hobbies</h2>
 
 					<img src="imagenes/logos.png" alt="logos de starcraft" class="imagen-starcraft">
 
@@ -64,7 +112,7 @@
 
 					<hr>
 
-					<h2 class="centrado">Academic training</h2>
+					<h2 class="centrado" id="acad-trai">Academic training</h2>
 
 					<div class="logos">
 
@@ -78,7 +126,7 @@
 
 					<hr>
 
-					<h2 class="centrado">Contact</h2>
+					<h2 class="centrado" id="contact">Contact</h2>
 
 					<form method="post">
 						<div class="container">
@@ -86,21 +134,21 @@
 							<div class="text-area">
 
 								<label for="name">Name:</label>
-								<input type="text" id="name" placeholder="Your name.."></input>
+								<input type="text" name="nombre" id="name" placeholder="Your name.."></input>
 
 							</div>
 
 							<div class="text-area">
 
 								<label for="mail">E-mail:</label>
-								<input type="text" id="mail" placeholder="Your e-mail.."></input>
+								<input type="text" name="mail" id="mail" placeholder="Your e-mail.."></input>
 								
 							</div>
 
 							<div class="text-area">
 
 								<label for="asunto">Business:</label>
-								<input type="text" id="asunto" placeholder="The business.."></input>
+								<input type="text" name="asunto" id="asunto" placeholder="The business.."></input>
 
 							</div>
 
@@ -113,7 +161,7 @@
 
 							<div class="text-area">
 	    					
-	    						<input type="submit" value="Enviar">
+	    						<input type="submit" name="mensaje" value="Enviar">
 	  						
 	  						</div>
 
@@ -132,5 +180,5 @@
 		</footer>
 
 	</body>
-
+	<script src="validacion.js"></script>
 </html>
